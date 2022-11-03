@@ -19,7 +19,7 @@ class Receptionista(Thread):
                 if (op == 0): 
                     print(f"Recepcionista el cliente {client} tiene reservación, pasa directamente")
                 else: 
-                    print(f"Recepcionista el cliente {client} ya tiene una reservación y pasará a centarse")
+                    print(f"Recepcionista el cliente {client} ya tiene una reservación y pasará a sentarse")
                 hasReservation = True
                 self.tables.append(client)
                 self.reservations.remove(client)
